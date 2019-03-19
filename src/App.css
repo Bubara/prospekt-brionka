@@ -1,0 +1,347 @@
+/*NAVBAR*/
+
+.navbar {
+  background-color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+  transition-duration: 0.3s;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  cursor: pointer;
+  color: orange;
+}
+
+.logo {
+  height: 50px;
+  width: 150px;
+}
+
+.ml-auto {
+  text-align: center;
+}
+
+
+/*-----------------------------------------------------------------------*/
+
+/*HOMESCREEN*/
+
+.homeScreen {
+  width: 100%;
+  height: 680px;
+  background: 
+    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url('../src/images/home-image.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.title {
+  color: rgb(247, 174, 39);
+  text-align: center;
+  font-family: 'Srisakdi', cursive;
+  font-size: 60px;
+}
+
+.subtitle {
+  text-align: center;
+  color: white;
+}
+
+.title-container {
+  padding-top: 200px;
+}
+
+/*------------------------------------------------------------------------------*/
+
+/*NEWS*/
+
+.news-jumbotron {
+  background-color: rgb(247, 174, 39); 
+  margin-top: -40px;
+}
+
+.aboutUsImage {
+  width: 700px;
+  height: 700px;
+  float: left;
+  margin-top: -180px;
+  margin-right: -30px;
+  margin-left: -35px;
+  position: relative;
+}
+
+@media screen and (max-width:875px) {  
+  @media screen and (max-width: 600px) {
+    .aboutUsImage, .aboutUsParagraph{
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-width:970px) {  
+  @media screen and (min-width: 717px) {
+    .card{
+      width:50%;
+      margin: auto;
+    }
+  }
+}
+
+.text-container {
+  position: relative;
+}
+
+.aboutUsParagraph {
+  font-size: 14px;
+  position: absolute;
+  transform: rotate(-3deg);
+  padding-top: 70px;
+  padding-left: 270px;
+  margin-left: 30px;
+  font-family: 'Srisakdi', cursive;
+  font-weight: bold;
+}
+
+.packed-bread-image {
+  width: 250px;
+  height: 150px;
+  margin: auto;
+}
+
+.card {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.card-subtitle {
+  padding-bottom: 10px;
+}
+
+.know-more {
+  color: rgb(247, 174, 39);
+}
+
+
+
+
+/*---------------------------------------------------------------------*/
+
+/*DISCOUNT*/
+
+.discount-container {
+  padding-top: 130px;
+  margin-top: -40px;
+  background-color: #874a05;
+  background: url('../src/images/wheat.jpg') fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card-discount {
+  margin-bottom: 40px;
+  background-color: #2d2a23;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: grey;
+}
+
+.product-weight {
+  font-size: 13px;
+  color: rgb(247, 174, 39);
+  font-weight: bold;
+}
+
+.discount-img {
+  background: transparent;
+}
+
+.discount-title {
+  text-align: center;
+  margin-bottom: 70px;
+  margin-top: -50px;
+  color: rgb(247, 174, 39);
+  font-weight: bold;
+} 
+
+.discount-product-title, .discount-price {
+  color: white;
+}
+ /*---------------------------------------------------------------------*/
+
+ /*ACTIVITIES*/
+
+
+.activities-container {
+  padding-bottom: 40px;
+}
+
+ .activities-image {
+  width: 255px;
+  height: 300px;
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+ }
+
+ .activities-title {
+  font-family: 'Srisakdi', cursive;
+  font-weight: bold;
+  background-color: transparent;
+  text-align: center;
+ }
+
+
+ /*-------------------------------------------------------------------------*/
+
+ /*SELECTION*/
+
+ .selection-jumbotron {
+  background-color: #4c2b03;
+  background: url('../src/images/selection-bg.jpg');
+  background-position: center;
+  text-align: justify;
+ }
+
+ .selection-container {
+  background-color: white;
+ }
+
+ .selection-img {
+  background: url('../src/images/selection-img.jpg');
+  background-size: cover;
+ }
+
+ .selection-title {
+   color: white;
+   margin-bottom: 30px;
+   text-align: center;
+ }
+
+ .selection-inner-container {
+   padding-top: 30px;
+   padding-bottom: 10px;
+ }
+
+
+ /*-------------------------------------------------------*/
+
+ /*FOOTER*/
+
+ .footer-jumbotron {
+   background: white;
+   height: 180px;
+   margin-top: 30px;
+ }
+
+ .footer-container p {
+   text-align: center;
+   padding-bottom: 30px;
+ }
+
+ /*------------------------------------------------------------*/
+
+ /*O NAMA*/
+
+ .oNama-jumbotron {
+  width: 100%;
+  height: 680px;
+  background: 
+    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url('../src/images/o-nama-pic.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.title {
+  color: rgb(247, 174, 39);
+  text-align: center;
+  font-family: 'Srisakdi', cursive;
+  font-size: 60px;
+}
+
+.subtitle {
+  text-align: center;
+  color: white;
+  font-weight: 300;
+}
+
+.title-container {
+  padding-top: 200px;
+}
+
+.info-container {
+  background: #5e3004;
+  color: white;
+  margin-top: 30px;
+}
+
+.o-nama-info-container {
+  margin-top: 50px;
+  margin-right: 40px;
+}
+
+.info-container p {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.wheat-leaf {
+  position: absolute;
+  margin-top: -100px;
+  right: -19px;
+  transform: rotate(160deg);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bread-cont-pic {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.bread-pic-container {
+  position: relative;
+  width: 50%;
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0,0,0,0.5);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.bread-pic-container:hover .overlay {
+  height: 100%;
+  overflow: hidden;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
